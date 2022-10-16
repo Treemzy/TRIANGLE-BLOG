@@ -1,0 +1,165 @@
+main {
+  min-height: 80vh;
+}
+.marginTop {
+  margin-top: 70px;
+}
+.reactions i{
+  padding: 5px;
+  font-size: 20px;
+}
+
+.category button{
+  --bs-btn-padding-y: .25rem;
+  --bs-btn-padding-x: .5rem;
+  --bs-btn-font-size: .75rem;
+}
+
+.reaction a{
+  text-decoration: none;
+  color:#000;
+}
+
+.likeAction a{
+  text-decoration: none;
+  color:#000;
+}
+.reply{
+  margin-left: 12px;
+}
+
+.reply small{
+  color:#b7b4b4;
+}
+.reply small i{
+  color:#DB2323;
+}
+.reply small:hover{
+  color: #862d59;
+  cursor: pointer;
+}
+.commentList{
+  border: none;
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  border-radius: 4px;
+}
+
+/* .btn-login button{
+  border-radius: 0;
+  padding: 10px;
+  background: #343a40;
+  border: #343a40;
+  font-size: 15px;
+} */
+.btn-login .btn {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+.btn-login .btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #1a1a1a;
+    --bs-btn-border-color: #1a1a1a;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #161616;
+    --bs-btn-hover-border-color: #151515;
+    --bs-btn-focus-shadow-rgb: 60, 60, 60;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #151515;
+    --bs-btn-active-border-color: #141414;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #1a1a1a;
+    --bs-btn-disabled-border-color: #1a1a1a;
+}
+.btn-login .btn {
+    --bs-btn-padding-x: 1.5rem;
+    --bs-btn-padding-y: 0.75rem;
+    --bs-btn-font-family: ;
+    --bs-btn-font-size: 1rem;
+    --bs-btn-font-weight: 600;
+    --bs-btn-line-height: 1.5rem;
+    --bs-btn-color: #fff;
+    --bs-btn-border-width: 0;
+    --bs-btn-border-color: transparent;
+    --bs-btn-border-radius: 0;
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+    --bs-btn-disabled-opacity: 0.65;
+    --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
+    display: inline-block;
+    padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+    font-family: var(--bs-btn-font-family);
+    font-size: var(--bs-btn-font-size);
+    font-weight: var(--bs-btn-font-weight);
+    line-height: var(--bs-btn-line-height);
+    color: var(--bs-btn-color);
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+    background-color: var(--bs-btn-bg);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.errMsg{
+  padding: 3px;
+  font-weight: 700;
+}
+
+.createLabel label{
+  font-weight: 700;
+}
+.postTitle strong{
+  text-transform: uppercase;
+}
+
+.reactionDel a{
+  text-decoration: none;
+  color: #E42020;
+}
+
+.reactionDel i{
+  font-size: 12px;
+}
+
+.reactionEdit a{
+  text-decoration: none;
+  color: #22AA29;
+}
+
+.reactionEdit i{
+  font-size: 12px;
+}
+
+.postImage img{
+  height: 115px;
+  width: auto;
+}
+
+.page-link {
+  cursor: pointer;
+}
+
+.search {
+  position: relative;
+  
+}
+.search input{
+  height: 60px;
+  text-indent: 25px;
+  border: 2px solid #d6d4d4;
+}
+
+.search input:focus{
+  border: 2px solid #862d59;
+}
+
+.search .fa-search{
+  position: absolute;
+  top:20px;
+  left:16px;
+}
